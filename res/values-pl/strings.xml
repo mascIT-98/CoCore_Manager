@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titleguide">Czytaj tutaj, jeśli coś nie jest jasne.</string>
+    <string name="save_max">Maksymalna oszczędność energii częstotliwości do 600 zamiast 800</string>
+    <string name="frandom">aktywny frandom module</string>
+    <string name="zram">aktywny zram</string>
+    <string name="text_dialog">Pozostaw puste, aby wyłączyć.</string>
+    <string name="log">Logger</string>
+    <string name="t_boost">Touch Booster</string>
+    <string name="start">przesuń palcem w lewo, aby rozpocząć!</string>
+    <string name="enabled">Właczone</string>
+    <string name="disabled">Wyłączone</string>
+    <string name="app_name">Menedżer CoCore</string>  
+    <string name="action_settings">Ustawienia</string>
+    <string name="governor">Zarządca</string>
+    <string name="ioscheduler">Zarządca We/Wy</string>
+    <string name="congestion">Tryb TCP</string>
+    <string name="max_frequency">Maksymalne taktowanie</string> 
+    <string name="min_frequency">minimalna taktowanie</string>    
+    <string name="deep">Poziom uśpienia</string>
+    <string name="charge">Napięcie ładowania</string>
+    <string name="tparam">Ustawienia ekranu dotykowego</string>
+    <string name="pp">Zarządca Mali PP</string>
+    <string name="fsync">Fsync</string>
+    <string name="mmc">Wyłacz SPI CRC</string>
+    <string name="lmk">Low Memory killer</string>  
+    <string name="sdcard">Zwiększyć karty SD do cache 2048kb</string> 
+    <string name="malideb">Ustaw poziom debugowania Mali</string>
+    <string name="malideb_on">Poziom debugowania Mali: 0</string>
+    <string name="malideb_off">Poziom debugowania Mali: 2 (domyślne)</string>
+    <string name="malimax">Ustaw max odczyt l2 Mali</string>
+    <string name="malidriv">Użyj tylko Mali jako renderera</string>
+    <string name="malidriv_sum_off">Mali i Android</string>
+    <string name="malidriv_sum_on">Tylko Mali</string>
+    <string name="crt">Animacja telewizora CRT</string>    
+    <string name="sweep">Przeciągnij aby obudzić</string>  
+    <string name="touchtowake">Dotknij aby obudzić</string>    
+    <string name="led">Podświetlenie klawiszy dotykowych</string>  
+    <string name="wifi">Tryb Wi-Fi</string>
+    <string name="wifi_on">Maksymalna prędkość</string>
+    <string name="wifi_off">Większa stabilność</string>
+    <string name="uksm">UKSM</string>  
+    <string name="night_mode">Night Mode</string>
+    <string name="gpu_oc">Podkręcanie GPU</string>
+    <string name="usbshare">Napięcie na USB</string>    
+    <string name="usbswitch">Switch USB</string>    
+    <string name="lcdclk">S6E63M0 LCDCLK</string>
+    <string name="uptodate">Latest version installed.</string>
+    <string name="ota_tap">Tap here to check it right now</string>
+    <string name="btn_tap">Tap to download &amp; install</string>
+  <string name="ota_quest">Update available.\nCurrent version:&#160;</string>
+  <string name="ota_quest2">New version:&#160;</string>
+  <string name="down">Downloading&#8230;</string>
+    <string name="real_charge">Powiadomienia o naładowaniu</string>
+<string name="drawer_open">Otwórz pasek nawigacyjny</string>
+<string name="drawer_close">Zamknij pasek nawigacyjny</string>
+<string name="guide">FSYNC: funkcja Androida, która pozwala systemowi na nieprzerywany zapis danych z pamięci RAM do pamięci flash aby uniknąć utraty dany spowodowanych nagłym wyłaczeniem telefonu. Domyślne właczone. Jeśli chcesz przyśpieszyć system ale utracić stabilność możesz zaryzykować i wyłączyc. Na własne ryzyko!\n\n-/Przesuń aby odblokować/Dotknij aby odblokować: Pozwala wybudzić telefon ze stanu uśpienia poprzez przeciągniecie i/lub dotknięcie palcem. Uwaga, zjada baterie. \n\\n\n-Tryb TCP: Obsługuje sieci 3g, kontroluje prędkość i stablilność, szybkość polączenia na poszczególnym zależy od wielu czynników.\n\nUKSM: ULTRA KERNEL SAMEPAGE MERGING redukuje ilość ramu używanego przez system. \n\nSPI CRC: Nie wiem dokładnie co ta opcja robi, jednak po wyłączeniu wydajność rośnie o ok. 10%. Uwaga, może powodować nagłe rebooty bądź crashować aplikacje\n\nREAL CHARGE NOTIFICATION: To pokazuje, czy bateria jest naładowana czy nie prawdziwe.\n\nLOGGER: Wyłącza lub włącza możliwość logowania do systemu, może speeda.\n\nSD AHEAD: Zwiększyć rozmiar pamięci podręcznej od 128kB do 2048 w celu poprawy szybkości działania rw sd.\n\nS6E63M0 LCDCLK: To ustawia ekran odświeżania klatek na sekundę, domyślnie 60Hz.\n</string>
+    <string-array name="titles">
+        <item>HOME</item>
+        <item>PERFORMANCE</item>
+        <item>MALI</item>
+        <item>BATTERY</item>
+        <item>CPU</item>
+        <item>SCHERMO</item>
+        <item>MISC</item>
+        <item>NET</item>
+        <item>GUIDE</item>
+    </string-array>
+</resources>

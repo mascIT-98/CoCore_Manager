@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titleguide">LEGGI QUESTA GUIDA SE NON TI E\' CHIARO QUALCOSA.</string>
+    <string name="save_max">Imposta massima freq in power save mode in Khz (600MHz=600000KHz)</string>
+    <string name="frandom">Abilita il frandom.ko</string>
+    <string name="zram">Attiva/disattiva zram</string>
+    <string name="text_dialog">Lascia vuoto per settare il valore di default.</string>
+    <string name="log">Logger</string>
+    <string name="t_boost">Touch Booster</string>
+    <string name="start">Swipa verso destra per iniziare!</string>
+    <string name="app_name">CoCore Manager</string>  
+    <string name="action_settings">Impostazioni</string>
+    <string name="governor">Governor</string>
+    <string name="ioscheduler">I/O scheduler</string>
+    <string name="congestion">TCP Congestions</string>
+    <string name="max_frequency">Frequenza massima CPU</string>
+    <string name="min_frequency">Frequenza minima CPU</string>    
+    <string name="deep">Imposta il livello massimo di deepsleep</string>
+    <string name="charge">Voltaggi AC</string>
+    <string name="tparam">Parametri touchscreen</string>
+    <string name="pp">Mali PP scheduler</string>
+    <string name="sdcard">Aumenta cache sd a 2048kb</string> 
+    <string name="fsync">Fsync</string>
+    <string name="mmc">Disabilita SPI CRC</string>
+    <string name="malideb">Imposta il Mali debug level</string>
+    <string name="malideb_on">Mali debug level: 0</string>
+    <string name="malideb_off">Mali debug level: 2 (default)</string>
+    <string name="malimax">Imposta mali l2 max reads</string>
+    <string name="malidriv">Usa solo il Mali sw render</string>
+    <string name="malidriv_sum_off">Sia Mali che android</string>
+    <string name="malidriv_sum_on">Solo Mali</string>
+    <string name="crt">Effetto CRT-OFF</string>
+    <string name="sweep">SweepToWake</string>
+    <string name="lmk">Parametri Low Memory Killer</string>   
+    <string name="touchtowake">TouchToWake</string>
+    <string name="led">Led tasti soft touch</string>
+    <string name="wifi">Wifi FAST/MAX</string>
+    <string name="wifi_on">PM_MAX attivo</string>
+    <string name="wifi_off">PM_FAST attivo</string>
+    <string name="uksm">UKSM</string>
+    <string name="gpu_oc">GPU overclock</string>
+    <string name="usbshare">USB power sharing</string>
+    <string name="usbswitch">USB switcher</string>
+    <string name="night_mode">Modalità notte</string>
+    <string name="lcdclk">S6E63M0 LCDCLK</string>
+    <string name="real_charge">Real Charge Notification</string>
+    <string name="enabled">Abilitato</string>
+    <string name="disabled">Disabilitato</string>
+    <string name="ota_tap">Clicca qui per aggiornare</string>
+  <string name="ota_quest">Aggiornamento disponibile\nVersione corrente:&#160;</string>
+  <string name="btn_tap">Clicca per scaricare &amp; installare</string>
+  <string name="ota_quest2">Nuova versione:&#160;</string>
+  <string name="uptodate">Ultima versione installata.</string>
+  <string name="down">Scaricando&#8230;</string>
+<string name="drawer_open">Open navigation drawer</string>
+<string name="drawer_close">Close navigation drawer</string>
+<string name="guide">FSYNC: E\' una funzione del sistema che scrive continuamente dati dalla ram alla memoria flash per evitare perdite di dati. Disabilitarlo è rischioso su sistemi instabili, e comporta aumento di autonomia e prestazioni di lettura e scrittura per via dei minori cicli di cpu.\n\nSWEEPTOWAKE/TOUCHTOWAKE: Ti permette di sbloccare il telefono con un semplice tap sullo schermo; attenzione questo comporta un wakelock continuo e perciò drain assicurato! \n\nWIFI MODE: FAST o MAX? FAST è usata di default e garantissce massima velocità; MAX invece serve per risparmiare batteria, ma riduce le prestazioni del wifi. \n\nTCP CONGESTIONS: Servono per la velocita del 3g. Io uso veno con la wind. Usate quella che vi da maggior velocità!\n\nUKSM: Sta per ULTRA KERNEL SAMEPAGE MERGING, in poche parole riduce l\'ultizzo di RAM. Consiglio di lasciarla attivata. \n\nSPI CRC: Non so esattamente cosa sia ma sul thread di cocafe c\'è scritto che disabilitandolo le prestazioni aumentano del 10%. Ma attento ai crash!\n\nREAL CHARGE NOTIFICATION: Mostra se la batteria è carica al 100%% o no.\n\nLOGGER: Registrazione di log di sistema, disabilitandolo potrebbe aumentare la velocità del sistema.\n\nSD AHEAD: Aumenta la dimensione della cache per la scheda sd da 128kb a 2048, aumentando così la velocità delle operazioni di rw.\n\nS6E63M0 LCDCLK: Imposta il valore di aggiornamento dello schermo in Hz, default è 60Hz.\n\n</string>
+    
+    <string-array name="titles">
+        <item>HOME</item>
+        <item>PRESTAZIONI</item>
+        <item>MALI</item>
+        <item>BATTERIA</item>
+        <item>CPU</item>
+        <item>SCHERMO</item>
+        <item>MISC</item>
+        <item>INTERNET</item>
+        <item>GUIDA</item>
+    </string-array>
+</resources>

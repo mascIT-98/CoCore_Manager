@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference  android:title="@string/fsync" android:key="fsync" android:summaryOff="@string/enabled" android:summaryOn="@string/disabled" android:layout="@layout/checkbox_pref"/>
+    <CheckBoxPreference  android:title="@string/mmc" android:key="mmc" android:summaryOff="@string/disabled" android:summaryOn="@string/enabled" android:layout="@layout/checkbox_pref"/>
+    <CheckBoxPreference  android:title="@string/t_boost" android:key="t_boost" android:summaryOn="@string/enabled" android:summaryOff="@string/disabled" android:layout="@layout/checkbox_pref"/>
+    <CheckBoxPreference android:title="@string/frandom" android:key="frandom" android:summaryOn="@string/enabled" android:summaryOff="@string/disabled" android:layout="@layout/checkbox_pref"/>
+    <com.hasta.cocoremanager.EditTextPref android:title="@string/zram" android:dialogTitle="@string/text_dialog" android:key="zram"/>
+</PreferenceScreen>

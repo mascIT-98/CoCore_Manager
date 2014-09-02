@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="voltage_entries" translatable="false">
+        <item>900 mA   *WARNING*</item>
+        <item>800 mA   *WARNING*</item>
+        <item>700 mA</item>
+        <item>600 mA (default)</item>
+        <item>500 mA</item>
+        <item>400 mA</item>
+        <item>300 mA</item>
+        <item>200 mA</item>
+        <item>100 mA</item>
+    </string-array>
+    <string-array name="voltage_entries_values" translatable="false">
+        <item>900</item>
+        <item>800</item>
+        <item>700</item>
+        <item>600</item>
+        <item>500</item>
+        <item>400</item>
+        <item>300</item>
+        <item>200</item>
+        <item>100</item>
+    </string-array>
+    
+    <string-array name="deep_name" translatable="false">
+        <item>3 (default)</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="deep_val" translatable="false">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+    <string-array name="mali_max_reads_entries" translatable="false">
+        <item>28 (default)</item>
+        <item>32</item>
+        <item>48</item>
+    </string-array>
+    <string-array name="mali_max_reads_val" translatable="false">
+        <item>28</item>
+        <item>32</item>
+        <item>48</item>
+    </string-array>
+    
+   <string-array name="lmk_name" >
+        <item>Deafult</item>
+        <item>Mild</item>
+        <item>Aggressive</item>
+    </string-array>
+    <string-array name="lmk_val" translatable="false">
+        <item>\'2048,3584,20736,24064,27136,30464\'</item>
+        <item>\'1536,2048,4096,6144,8192,12288\'</item>
+        <item>\'1536,2048,4096,8192,16384,24576\'</item>
+    </string-array>
+    
+    <string-array name="tparam_name" translatable="false">
+        <item>17 (default)</item>
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="tparam_val" translatable="false">
+        <item>val=17</item>
+        <item>val=5</item>
+        <item>val=10</item>
+        <item>val=25</item>
+    </string-array>
+    
+    <string-array name="power_save_max" translatable="false">
+        <item>400 MHz</item>
+        <item>600 MHz</item>
+        <item>800 MHz (default)</item>
+    </string-array>
+    <string-array name="power_save_max_val" translatable="false">
+        <item>400000</item>
+        <item>600000</item>
+        <item>800000</item>
+    </string-array>
+    
+    <string-array name="lcdclk_name" translatable="false">
+        <item>60Hz</item>
+        <item>50Hz</item>
+        <item>45Hz</item>
+        <item>40Hz</item>
+    </string-array>
+    <string-array name="lcdclk_val" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    
+    <string-array name="gpu_name" translatable="false">
+         <item>192 MHz</item>
+        <item>260 MHz</item>
+        <item>300 MHz</item>
+        <item>320 MHz</item>
+        <item>360 MHz</item>
+        <item>400 MHz</item>
+        <item>420 MHz</item>
+        <item>440 MHz</item>
+        <item>460 MHz</item>
+        <item>480 MHz</item>
+        <item>500 MHz</item>
+        <item>520 MHz</item>
+        <item>540 MHz</item>
+        <item>560 MHz</item>
+        <item>580 MHz</item>
+        <item>600 MHz</item>
+        <item>620 MHz</item>
+        <item>640 MHz</item>
+        <item>660 MHz</item>
+        <item>680 MHz</item>
+        <item>700 MHz</item>
+        <item>710 MHz</item>
+        <item>720 MHz</item>
+        <item>730 MHz</item>
+    </string-array>
+    <string-array name="gpu_val" translatable="false">       
+        <item>192000</item>
+        <item>256000</item>
+        <item>299520</item>
+        <item>320000</item>
+        <item>360000</item>
+        <item>399360</item>
+        <item>422400</item>
+        <item>441600</item>
+        <item>460800</item>
+        <item>480000</item>
+        <item>499200</item>
+        <item>518400</item>
+        <item>537600</item>
+        <item>560640</item>
+        <item>579840</item>
+        <item>600000</item>
+        <item>619200</item>
+        <item>640000</item>
+        <item>660480</item>
+        <item>679680</item>
+        <item>700800</item>
+        <item>710400</item>
+        <item>720000</item>
+        <item>729600</item>
+    </string-array>    
+</resources>

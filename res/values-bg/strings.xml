@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titleguide">прочетете тук, ако нещо не е ясно.</string>
+    <string name="save_max">Максимално пестене на електроенергия честота до 600 вместо 800</string>
+    <string name="frandom">активен frandom module</string>
+    <string name="zram">активен zram</string>
+    <string name="text_dialog">Дръжте празен, за да забраните.</string>
+    <string name="log">Logger</string>
+    <string name="t_boost">Touch Booster</string>
+    <string name="start">Плъзнете наляво, за да започне!</string>
+    <string name="enabled">Активирано</string>
+    <string name="disabled">Изключено</string>
+    <string name="app_name">CoCore мениджър</string>  
+    <string name="action_settings">Настройки</string>
+    <string name="governor">Governor</string>
+    <string name="ioscheduler">I/O scheduler</string>
+    <string name="congestion">TCP Congestions</string>
+    <string name="max_frequency">Max честота на процесора</string> 
+    <string name="min_frequency">Min честота на процесора</string>   
+    <string name="deep">Определете най-дълбокото състояние на съня</string>
+    <string name="charge">Эарядно напрежение</string>
+    <string name="tparam">Параметри на екрана</string>
+    <string name="pp">Mali PP scheduler</string>
+    <string name="fsync">Fsync</string>
+    <string name="sdcard">Увеличете кеш SD карта, за да 2048kb</string> 
+    <string name="mmc">Изключи SPI CRC</string>   
+    <string name="malideb">Настройте нивото на Mali за отстраняване на грешките</string>
+    <string name="malideb_on">Ниво за отстраняване на грешки Mali: 0</string>
+    <string name="malideb_off">Ниво за отстраняване на грешки Mali: 2 (default)</string>
+    <string name="malimax">Set mali max reads to 48</string>
+    <string name="malidriv">Използвай само Mali sw render</string>
+    <string name="malidriv_sum_off">Mali и Android</string>
+    <string name="malidriv_sum_on">Само Mali</string>
+    <string name="crt">CRT-OFF animation</string>    
+    <string name="night_mode">Night Mode</string>
+    <string name="sweep">SweepToWake</string>   
+    <string name="lmk">Low Memory Killer параметри</string> 
+    <string name="touchtowake">TouchToWake</string>    
+    <string name="led">Touchkeys led</string>   
+    <string name="wifi">Wifi FAST/MAX mode</string>
+    <string name="wifi_on">PM_MAX mode active</string>
+    <string name="wifi_off">PM_FAST mode active</string>
+    <string name="uksm">UKSM</string>    
+    <string name="gpu_oc">GPU овърклок</string>
+    <string name="usbshare">USB power sharing</string>    
+    <string name="usbswitch">USB switcher</string>    
+    <string name="lcdclk">S6E63M0 LCDCLK</string>
+    <string name="btn_tap">Tap to download &amp; install</string>
+    <string name="ota_tap">Tap here to check it right now</string>
+  <string name="ota_quest">Update available:\nCurrent version: </string>
+  <string name="ota_quest2">New version: </string>
+  <string name="uptodate">Latest version installed.</string>
+  <string name="down">Downloading&#8230;</string>
+    <string name="real_charge">недвижими уведомление за таксуване</string>
+<string name="drawer_open">Open navigation drawer</string>
+<string name="drawer_close">Close navigation drawer</string>
+<string name="guide">FSYNC: is an android capability that allows the system to write continuously data from ram to flash to avoid data loss due to a sudden shoutdown. It is enabled by default, if you have a stable system you can also disable it because it can improve performance (less writing by cpu, less battery using, better performance!) It\'s at your risk!\n\nSWEEPTOWAKE/TOUCHTOWAKE: these allow you to wake up your device by swiping/touching the screen when it is off. These features causes wakelock so you\'ll have a worse battery backup. \n\nWIFI MODE: FAST or MAX MODE? FAST mode is used by default and it guarantee max wifi speed, instead of MAX mode that saves battery life and reduce wifi quality. \n\nTCP CONGESTIONS: these are about 3g speed, choose the one that is better for you, the best one is different due to the environment!\n\nUKSM: stands for ULTRA KERNEL SAMEPAGE MERGING and in less words it reduce the use of ram by the system. \n\nSPI CRC: don\'t know exactly what is, but you\'ll have 10% performance more by disabling it. But be careful, it causes random crashes!\n</string>
+    <string-array name="titles">
+        <item>HOME</item>
+        <item>изпълнение</item>
+        <item>MALI</item>
+        <item>батерия</item>
+        <item>CPU</item>
+        <item>DISPLAY</item>
+        <item>MISC</item>
+        <item>Интернет</item>
+        <item>Ръководство</item>
+    </string-array>
+</resources>

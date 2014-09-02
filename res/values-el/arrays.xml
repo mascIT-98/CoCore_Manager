@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string-array name="lmk_name">
+        <item>Standart</item>
+        <item>Mild</item>
+        <item>Aggressiv</item>
+    </string-array>
+   
+</resources>

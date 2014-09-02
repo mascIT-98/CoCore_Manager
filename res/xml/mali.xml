@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <CheckBoxPreference  android:title="@string/malideb" android:key="mali_debug" android:summaryOff="@string/malideb_off" android:summaryOn="@string/malideb_on" android:layout="@layout/checkbox_pref"/>
+    <CheckBoxPreference  android:title="@string/malidriv" android:summaryOff="@string/malidriv_sum_off" android:summaryOn="@string/malidriv_sum_on" android:key="mali_driver" android:layout="@layout/checkbox_pref"/>
+    <com.hasta.cocoremanager.ListPref  android:title="@string/gpu_oc" android:key="gpu_oc" android:entries="@array/gpu_name" android:entryValues="@array/gpu_val" android:layout="@layout/checkbox_pref"/>
+    <com.hasta.cocoremanager.ListPref  android:title="@string/malimax" android:key="mali_max_reads" android:entries="@array/mali_max_reads_entries" android:entryValues="@array/mali_max_reads_val" android:layout="@layout/checkbox_pref"/>
+    <CheckBoxPreference  android:title="@string/pp" android:key="pp" android:summaryOff="@string/disabled" android:summaryOn="@string/enabled" android:layout="@layout/checkbox_pref"/>
+   
+</PreferenceScreen>

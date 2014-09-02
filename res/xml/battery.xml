@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <com.hasta.cocoremanager.ListPref android:title="@string/deep" android:key="deep" android:entries="@array/deep_name" android:entryValues="@array/deep_val" android:layout="@layout/checkbox_pref"/>
+    <Preference  android:title="@string/real_charge" android:key="real_charge" android:layout="@layout/checkbox_pref"/>
+    <CheckBoxPreference  android:title="@string/wifi" android:key="wifi" android:summaryOn= "@string/wifi_on" android:summaryOff="@string/wifi_off" android:layout="@layout/checkbox_pref"/>
+    <com.hasta.cocoremanager.ListPref  android:title="@string/charge" android:entries="@array/voltage_entries" android:entryValues="@array/voltage_entries_values" android:key="voltage"/>
+    <com.hasta.cocoremanager.ListPref android:title="@string/save_max" android:entries="@array/power_save_max" android:entryValues="@array/power_save_max_val" android:key="save_max" android:layout="@layout/checkbox_pref"/>
+</PreferenceScreen>

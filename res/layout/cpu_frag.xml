@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_height="wrap_content"
+    android:layout_width="wrap_content" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee" >
+    
+   
+    <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+
+     android:background="@drawable/bg_card"
+     android:layout_margin="15sp"
+     >
+     
+    <TextView
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_weight="0.34"
+        android:text="@string/governor"
+        android:textColor="#ff000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Spinner 
+        android:layout_width="0sp"
+        android:layout_marginRight="10sp"
+        android:layout_weight="0.83"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/governor"/>
+
+    </LinearLayout>
+     <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:background="@drawable/bg_card"
+     android:layout_margin="15sp">
+
+     <TextView
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_weight="0.34"
+        android:text="@string/ioscheduler"
+        android:textColor="#ff000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/scheduler"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_weight="0.83" />
+
+  </LinearLayout>
+  <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:background="@drawable/bg_card"
+     android:layout_margin="15sp">
+
+     <TextView
+         android:layout_width="0sp"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10sp"
+         android:maxLines="5"
+         android:paddingBottom="10sp"
+         android:layout_weight="0.34"
+         android:text="@string/max_frequency"
+         android:textColor="#ff000000"
+         android:textSize="15sp"
+         android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/max_freq"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_weight="0.83" />
+
+  </LinearLayout>
+  <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:background="@drawable/bg_card"
+     android:layout_margin="15sp">
+
+     <TextView
+         android:layout_width="0sp"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10sp"
+         android:maxLines="5"
+         android:paddingBottom="10sp"
+         android:layout_weight="0.34"
+         android:text="@string/min_frequency"
+         android:textColor="#ff000000"
+         android:textSize="15sp"
+         android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/min_freq"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_weight="0.83" />
+
+  </LinearLayout>
+  
+   <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"        
+            android:layout_margin="15sp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:layout_gravity="center" >
+  <TextView android:textSize="15sp" android:textStyle="bold" android:layout_marginLeft="6sp"  android:layout_width="fill_parent"
+     android:layout_height="wrap_content" android:id="@+id/gov_tv" android:layout_below="@+id/sched_tv"/>
+  <TextView android:textSize="15sp" android:textStyle="bold" android:layout_marginLeft="6sp" android:layout_marginTop="5sp" android:layout_width="fill_parent"
+     android:layout_height="wrap_content" android:id="@+id/sched_tv" android:layout_below="@+id/max_freq_tv"/>
+  <TextView android:textStyle="bold" android:layout_marginLeft="6sp" android:layout_marginTop="5sp" android:layout_width="fill_parent"
+     android:layout_height="wrap_content" android:id="@+id/max_freq_tv" android:layout_below="@+id/min_freq_tv" android:textSize="15sp"/>
+  <TextView android:textStyle="bold" android:layout_marginLeft="6sp" android:layout_marginTop="5sp" android:layout_width="fill_parent"
+     android:layout_height="wrap_content" android:id="@+id/min_freq_tv"  android:textSize="15sp"/>
+  
+  </RelativeLayout>
+  
+  
+</LinearLayout>
+</ScrollView>

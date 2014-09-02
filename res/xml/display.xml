@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">   
+    <CheckBoxPreference  android:title="@string/sweep" android:key="sweep2wake" android:summaryOn="@string/enabled" android:summaryOff="@string/disabled" android:layout="@layout/checkbox_pref"/>
+    <CheckBoxPreference  android:title="@string/touchtowake" android:key="touch2wake" android:summaryOn="@string/enabled" android:summaryOff="@string/disabled" android:layout="@layout/checkbox_pref"/>
+     <CheckBoxPreference  android:title="@string/crt" android:key="crt" android:summaryOn="@string/enabled" android:summaryOff="@string/disabled" android:layout="@layout/checkbox_pref"/>
+    <CheckBoxPreference  android:title="@string/led" android:key="led" android:summaryOn= "@string/disabled" android:summaryOff="@string/enabled" android:layout="@layout/checkbox_pref"/>
+    <CheckBoxPreference  android:title="@string/night_mode" android:key="n_mode" android:summaryOn= "@string/enabled" android:summaryOff="@string/disabled" android:layout="@layout/checkbox_pref"/>
+    <com.hasta.cocoremanager.ListPref  android:title="@string/lcdclk" android:key="lcdclk" android:entries="@array/lcdclk_name" android:entryValues="@array/lcdclk_val" android:defaultValue="0" android:layout="@layout/checkbox_pref"/>
+    <com.hasta.cocoremanager.ListPref  android:title="@string/tparam" android:key="tparam" android:entries="@array/tparam_name" android:entryValues="@array/tparam_val" android:defaultValue="0" android:layout="@layout/checkbox_pref"/>
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+    <item
+        android:id="@+id/thanks"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/credits"/>
+
+    <item
+        android:id="@+id/changelog"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/changelog_menu_item"/>
+    
+    <item
+        android:id="@+id/defaults"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Reset to defaults"/>
+</menu>
